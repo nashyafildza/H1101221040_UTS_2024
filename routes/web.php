@@ -5,12 +5,11 @@ use App\Http\Controllers\PegawaiController;
 use App\Http\Controllers\JabatanController;
 use App\Http\Controllers\PendidikanController;
 
-
 Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/testing', function () {
+Route::get('/home', function () {
     return view('testing');
 });
 
